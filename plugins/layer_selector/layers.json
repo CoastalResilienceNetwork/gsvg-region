@@ -1,0 +1,26 @@
+[
+    {
+        "agsSource": {
+            "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
+            "folderTitle": "Coastal_Resilience_base_data",
+            "folders": [
+                {
+                    "name": "Grenada",
+                    "services": [
+                        { "name": "Inundation_Scenarios", "type":"dynamic" },
+                        { "name": "Ecological", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                },
+                {
+                    "name": "St_Vincent_and_the_Grenadines",
+                    "services": [
+                        { "name": "Inundation_Scenarios", "type":"dynamic" },
+                        { "name": "Ecological", "type":"dynamic" },
+                        { "name": "Social_and_Economic", "type":"dynamic" }
+                    ]
+                }
+            ]
+        }
+    }
+]

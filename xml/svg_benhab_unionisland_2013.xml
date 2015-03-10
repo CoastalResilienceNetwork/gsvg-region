@@ -1,0 +1,105 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Union Island Benthic Habitats</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The product was created through object-oriented mapping using Definiens eCognition software allowing spectral, textural, edge-detection, and landscape properties of the seafloor features to be applied in classification workflow. Spectral information draws on the separation of benthic habitats based on differences in reflectance characteristics. Texture based classification considers the systematic variation of brightness within a group of pixels and is a function of the seafloor feature. Edge-detection is a process whereby boundaries are identified within an image corresponding to where brightness changes sharply across a narrow spatial threshold. Edge-detection was used principally to streamline processing through identifying objects with clearly defined (i.e. crisp) boundaries. Landscape contextual editing draws on the fact that geomorphological and ecological zonation across a depositional system follows generic and logical rules (near-shore sediments for example are not encountered on the reef-edge). Within eCognition, a multiresolution segmentation algorithm groups neighboring pixels, based on their spectral properties, to form polygons representing observed seafloor features. The resulting polygons are assigned classes representing different benthic habitats, as determined from drop-cam videos with known geographic positioning, either automatically through a spectral or textural threshold or manually by producer assignment. The polygons are exported from eCognition as Esri shapefiles (*.shp) to create the final polygons of the benthic habitat map. This final map maintains the native resolution of the WV2 imagery (2-m by 2-m).</abstract>
+      <purpose>These data were created under the direction of The Nature Conservancy for the Ecosystem Based Adaptation in the Grenadine Bank project (AWE). This project is built on the hypothesis that the neighboring and ecologically connected small island states in the Grenadine Bank can enhance the resilience of people and nature to climate change impacts by protecting, restoring and sustainably managing marine and coastal systems and strengthening community capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.466178</westbc>
+        <eastbc>-61.401001</eastbc>
+        <northbc>12.620587</northbc>
+        <southbc>12.568971</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms.</useconst>
+    <datacred>Robert Gardiner and Gwilym Rowlands, National Coral Reef Institute, Oceanographic Center, Nova Southeastern University, 8000 North Ocean Drive, Dania Beach, Florida, 33004, USA. Email: purkis@nova.edu Phone: 954-262-3647
+Contact Conservation Information Manager, caribgis@tnc.org.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1691</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>svg_benhab_unionisland_2013</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HabCode</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HabName</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20131001</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

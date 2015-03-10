@@ -1,0 +1,171 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Enumeration Districts with raw 2011 census information</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer identifies enumeration districts for the 2011 census. ED boundaries were manually shifted to line up along road and river boundaries where they appeared shifted to make the file orthorectified. This file contains all the raw 2011 census data collected from the Census Department of Grenada that was used in calculating the variables for the Socioeconomic Indices. A description of each field can be found in the Field and Subtypes part of the metadata.</abstract>
+      <purpose>Developed for the 2011 census. Resource developed to help summarize all the raw census information that was used to calculate the socioeconomic indices. This information will help inform the Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.802482</westbc>
+        <eastbc>-61.378025</eastbc>
+        <northbc>12.531896</northbc>
+        <southbc>11.982904</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms.</useconst>
+    <datacred>Created by Grenada Census Department and TNC. Data collected from the Grenada Census Department.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>287</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>grd_poli_edcensusCR_2011</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ED_KEY</attrlabl>
+        <attrdef>6-7 digit ED code consisting of 2 digit unique parish identifier and the 4-5 digit ED_ID (a zero was added at the end of the 3 and 4 digit ED_ID's)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PNAME</attrlabl>
+        <attrdef>Parish Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_ED</attrlabl>
+        <attrdef>Unique ED identifier consisting of 4 digit country code, and 7 digit Key</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQMI</attrlabl>
+        <attrdef>Area of enumeration district miles</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ED_ID</attrlabl>
+        <attrdef>3-5 digit ED identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td_tr</attrlabl>
+        <attrdef>Type of Dwelling: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQKM</attrlabl>
+        <attrdef>Area of enumeration district in kilometers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_densqmi</attrlabl>
+        <attrdef>Density per square mile of housing units</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>KEY</attrlabl>
+        <attrdef>7 digit ED code consisting of 2 digit unique parish identifier and 5 digit parish code (creating using ED_ID and adding a zero to create 5 digit number where necessary)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PCODE</attrlabl>
+        <attrdef>Unique 2 digit parish identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQM</attrlabl>
+        <attrdef>Area of enumeration district in meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_stotal</attrlabl>
+        <attrdef>Total population</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_popsqmi</attrlabl>
+        <attrdef>Population Density per square mile</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Under5_P</attrlabl>
+        <attrdef>Percentage of population under age 5</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Over65_P</attrlabl>
+        <attrdef>Percentage of population age 65 and over</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NoVehic_P</attrlabl>
+        <attrdef>Percentage of households without a vehicle</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NoInt_P</attrlabl>
+        <attrdef>Percentage of population without internet access</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140603</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

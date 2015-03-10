@@ -1,0 +1,967 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>grd_poli_edcensusraw_2011</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Layer identifies enumeration districts for the 2011 census. ED boundaries were manually shifted to line up along road and river boundaries where they appeared shifted to make the file orthorectified. This file contains all the raw 2011 census data collected from the Census Department of Grenada that was used in calculating the variables for the Socioeconomic Indices. A description of each field can be found in the Field and Subtypes part of the metadata.</abstract>
+      <purpose>Developed for the 2011 census. Resource developed to help summarize all the raw census information that was used to calculate the socioeconomic indices. This information will help inform the Nature Conservancy's AWE project. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-61.802482</westbc>
+        <eastbc>-61.378025</eastbc>
+        <northbc>12.531896</northbc>
+        <southbc>11.982904</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). By using this information, you agree to these terms.</useconst>
+    <datacred>Created by Grenada Census Department and TNC. Data collected from the Grenada Census Department.</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.1.0.3035</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>287</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-63.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu />
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>grd_poli_edcensusraw_2011</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>ED_KEY</attrlabl>
+        <attrdef>6-7 digit ED code consisting of 2 digit unique parish identifier and the 4-5 digit ED_ID (a zero was added at the end of the 3 and 4 digit ED_ID's)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY1</attrlabl>
+        <attrdef>3 letter country identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ED_ID</attrlabl>
+        <attrdef>3-5 digit ED identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREASQMI</attrlabl>
+        <attrdef>Area of enumeration district miles</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQM</attrlabl>
+        <attrdef>Area of enumeration district in meters</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AREASQKM</attrlabl>
+        <attrdef>Area of enumeration district in kilometers</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PNAME</attrlabl>
+        <attrdef>Parish Name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>T_CTRY2</attrlabl>
+        <attrdef>4 digit country identifier, same as calling code</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PCODE</attrlabl>
+        <attrdef>Unique 2 digit parish identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>KEY</attrlabl>
+        <attrdef>7 digit ED code consisting of 2 digit unique parish identifier and 5 digit parish code (creating using ED_ID and adding a zero to create 5 digit number where necessary)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_ED</attrlabl>
+        <attrdef>Unique ED identifier consisting of 4 digit country code, and 7 digit Key</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td1</attrlabl>
+        <attrdef>Type of Dwelling: Separate House</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td2</attrlabl>
+        <attrdef>Type of Dwelling: Part of private house</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td3</attrlabl>
+        <attrdef>Type of Dwelling: Flat/Apartment/Condo</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td4</attrlabl>
+        <attrdef>Type of Dwelling: Town house</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td5</attrlabl>
+        <attrdef>Type of Dwelling: Double house/Duplex</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td6</attrlabl>
+        <attrdef>Type of Dwelling: Business and Dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td7</attrlabl>
+        <attrdef>Type of Dwelling: Barracks</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td8</attrlabl>
+        <attrdef>Type of Dwelling: Outhouse</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td9</attrlabl>
+        <attrdef>Type of Dwelling: Group Dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td10</attrlabl>
+        <attrdef>Type of Dwelling: Improvised Housing Unit</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td11</attrlabl>
+        <attrdef>Type of Dwelling: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_td_tr</attrlabl>
+        <attrdef>Type of Dwelling: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_densqmi</attrlabl>
+        <attrdef>Density per square mile of housing units</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_y</attrlabl>
+        <attrdef>Dwelling Insurance: Yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_n</attrlabl>
+        <attrdef>Dwelling Insurance: No</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_dn</attrlabl>
+        <attrdef>Dwelling Insurance: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_ns</attrlabl>
+        <attrdef>Dwelling Insurance: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_di_tr</attrlabl>
+        <attrdef>Dwelling Insurance: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ic_y</attrlabl>
+        <attrdef>Insured Content: Yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ic_n</attrlabl>
+        <attrdef>Insured Content: No</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ic_dn</attrlabl>
+        <attrdef>Insured Content: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ic_ns</attrlabl>
+        <attrdef>Insured Content: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ic_tr</attrlabl>
+        <attrdef>Insured Content: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm1</attrlabl>
+        <attrdef>Wall Material: Wood</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm2</attrlabl>
+        <attrdef>Wall Material: Concrete/Blocks</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm3</attrlabl>
+        <attrdef>Wall Material: Wood and concrete</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm4</attrlabl>
+        <attrdef>Wall Material: Stone</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm5</attrlabl>
+        <attrdef>Wall Material: Brick</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm6</attrlabl>
+        <attrdef>Wall Material: Makeshift</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm7</attrlabl>
+        <attrdef>Wall Material: Plywood</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm8</attrlabl>
+        <attrdef>Wall Material: Plywood and Concrete</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm9</attrlabl>
+        <attrdef>Wall Material: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_walm_tr</attrlabl>
+        <attrdef>Wall Material: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof1</attrlabl>
+        <attrdef>Roof Material: Sheet metal</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof2</attrlabl>
+        <attrdef>Roof Material: Shingle (asphalt)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof3</attrlabl>
+        <attrdef>Roof Material: Shingle (wood)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof4</attrlabl>
+        <attrdef>Roof Material: Shingle (other)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof5</attrlabl>
+        <attrdef>Roof Material: Tile</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof6</attrlabl>
+        <attrdef>Roof Material: Concrete</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof7</attrlabl>
+        <attrdef>Roof Material: Makeshift/Thatched</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof8</attrlabl>
+        <attrdef>Roof Material: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_roof_tr</attrlabl>
+        <attrdef>Roof Material: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_1</attrlabl>
+        <attrdef>Year Building Built: Before 1980</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_2</attrlabl>
+        <attrdef>Year Building Built: 1980-1989</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_3</attrlabl>
+        <attrdef>Year Building Built: 1990-1999</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_4</attrlabl>
+        <attrdef>Year Building Built: 2000-2006</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_5</attrlabl>
+        <attrdef>Year Building Built: 2007</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_6</attrlabl>
+        <attrdef>Year Building Built: 2008</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_7</attrlabl>
+        <attrdef>Year Building Built: 2009</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_8</attrlabl>
+        <attrdef>Year Building Built: 2010</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_9</attrlabl>
+        <attrdef>Year Building Built: 2011</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_dn</attrlabl>
+        <attrdef>Year Building Built: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_ns</attrlabl>
+        <attrdef>Year Building Built: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_year_tr</attrlabl>
+        <attrdef>Year Building Built: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws1</attrlabl>
+        <attrdef>Water Supply: Public, piped into dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws2</attrlabl>
+        <attrdef>Water Supply: Public, piped into yard</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws3</attrlabl>
+        <attrdef>Water Supply: Public standpipe</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws4</attrlabl>
+        <attrdef>Water Supply: Private catchment, not piped</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws5</attrlabl>
+        <attrdef>Water Supply: Private, piped into dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws6</attrlabl>
+        <attrdef>Water Supply: Truck borne</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws7</attrlabl>
+        <attrdef>Water Supply: Spring, River</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws8</attrlabl>
+        <attrdef>Water Supply: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_ws_tr</attrlabl>
+        <attrdef>Water Supply: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw1</attrlabl>
+        <attrdef>Drinking Water: Public, piped into dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw2</attrlabl>
+        <attrdef>Drinking Water: Public standpipe outside the dwelling unit</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw3</attrlabl>
+        <attrdef>Drinking Water: Private, piped into dwelling</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw4</attrlabl>
+        <attrdef>Drinking Water: Private catchment, not piped</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw5</attrlabl>
+        <attrdef>Drinking Water: Spring, River</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw6</attrlabl>
+        <attrdef>Drinking Water: Bottled water</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw7</attrlabl>
+        <attrdef>Drinking Water: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_dw_tr</attrlabl>
+        <attrdef>Drinking Water: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil1</attrlabl>
+        <attrdef>Type of Toilet: Flush toilet linked to sewer</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil2</attrlabl>
+        <attrdef>Type of Toilet: Flush toilet linked to septic tank/Soak-away</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil3</attrlabl>
+        <attrdef>Type of Toilet: Pit-latrine/Ventilated and elevated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil4</attrlabl>
+        <attrdef>Type of Toilet: Pit-latrine not ventilated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil5</attrlabl>
+        <attrdef>Type of Toilet: Pit-latrine ventilated and not elevated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil6</attrlabl>
+        <attrdef>Type of Toilet: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil7</attrlabl>
+        <attrdef>Type of Toilet: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil_dn</attrlabl>
+        <attrdef>Type of Toilet: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil_ns</attrlabl>
+        <attrdef>Type of Toilet: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_toil_tr</attrlabl>
+        <attrdef>Type of Toilet: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_yi</attrlabl>
+        <attrdef>Type of Bath: Yes, indoors</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_yo</attrlabl>
+        <attrdef>Type of Bath: Yes, outdoors (private)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_n</attrlabl>
+        <attrdef>Type of Bath: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_dn</attrlabl>
+        <attrdef>Type of Bath: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_ns</attrlabl>
+        <attrdef>Type of Bath: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_bath_tr</attrlabl>
+        <attrdef>Type of Bath: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_i</attrlabl>
+        <attrdef>Kitchen Availability: Inside</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_o</attrlabl>
+        <attrdef>Kitchen Availability: Outside</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_n</attrlabl>
+        <attrdef>Kitchen Availability: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_dn</attrlabl>
+        <attrdef>Kitchen Availability: Don't know</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_ns</attrlabl>
+        <attrdef>Kitchen Availability: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_kitc_tr</attrlabl>
+        <attrdef>Kitchen Availability: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_solar_y</attrlabl>
+        <attrdef>Solar Water Heater Availability: Yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_solar_n</attrlabl>
+        <attrdef>Solar Water Heater Availability: No</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_solar_ns</attrlabl>
+        <attrdef>Solar Water Heater Availability: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_solar_tr</attrlabl>
+        <attrdef>Solar Water Heater Availability: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic0</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with no vehicle available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic1</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with 1 vehicle available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic2</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with 2 vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic3</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with 3 vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic4p</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with 4 or more vehicles available</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_y</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with vehicle available (sum of all housing units with 1 or more vehicles available)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_ns</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with vehicle availability not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>h_vehic_tr</attrlabl>
+        <attrdef>Vehicles available: Occupied housing units with vehicle available: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_smale</attrlabl>
+        <attrdef>Population: Male</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_sfemale</attrlabl>
+        <attrdef>Population: Female</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_stotal</attrlabl>
+        <attrdef>Total population</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_popsqmi</attrlabl>
+        <attrdef>Population Density per square mile</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age1</attrlabl>
+        <attrdef>Age: 0-4</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age2</attrlabl>
+        <attrdef>Age: 5-9</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age3</attrlabl>
+        <attrdef>Age: 10-14</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age4</attrlabl>
+        <attrdef>Age: 15-19</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age5</attrlabl>
+        <attrdef>Age: 20-24</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age6</attrlabl>
+        <attrdef>Age: 25-29</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age7</attrlabl>
+        <attrdef>Age: 30-34</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age8</attrlabl>
+        <attrdef>Age: 35-39</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age9</attrlabl>
+        <attrdef>Age: 40-44</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age10</attrlabl>
+        <attrdef>Age: 45-49</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age11</attrlabl>
+        <attrdef>Age: 50-54</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age12</attrlabl>
+        <attrdef>Age: 55-59</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age13</attrlabl>
+        <attrdef>Age: 60-64</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age14</attrlabl>
+        <attrdef>Age: 65-69</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age15</attrlabl>
+        <attrdef>Age: 70-74</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age16</attrlabl>
+        <attrdef>Age: 75-79</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age17</attrlabl>
+        <attrdef>Age: 80 and OVER</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_age_tr</attrlabl>
+        <attrdef>Age: total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_s</attrlabl>
+        <attrdef>Religious affiliation: Sum of all types of religion (including "Other")</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_n</attrlabl>
+        <attrdef>Religious affiliation: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_ns</attrlabl>
+        <attrdef>Religious affiliation: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_relig_tr</attrlabl>
+        <attrdef>Religious affiliation: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_y</attrlabl>
+        <attrdef>Insurance status: Yes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_n</attrlabl>
+        <attrdef>Insurance status: No</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ins_tr</attrlabl>
+        <attrdef>Insurance status: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_yf</attrlabl>
+        <attrdef>Currently attending an educational institution: Yes (full time)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_yp</attrlabl>
+        <attrdef>Currently attending an educational institution: Yes (part time)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_n</attrlabl>
+        <attrdef>Currently attending an educational institution: No</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_ns</attrlabl>
+        <attrdef>Currently attending an educational institution: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edin_tr</attrlabl>
+        <attrdef>Currently attending an educational institution: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed1</attrlabl>
+        <attrdef>Highest level of education: Daycare</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed2</attrlabl>
+        <attrdef>Highest level of education: Pre-school</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed3</attrlabl>
+        <attrdef>Highest level of education: Pre-primary (Infant) or Primary</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed4</attrlabl>
+        <attrdef>Highest level of education: Lower/Junior Secondary (Forms 1-3)/Senior Primary</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed5</attrlabl>
+        <attrdef>Highest level of education: Upper Secondary (Forms 4 and 5)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed6</attrlabl>
+        <attrdef>Highest level of education: Post Secondary, non-tertiary (diploma or associate degree)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed7</attrlabl>
+        <attrdef>Highest level of education: Tertiary level - Bachelor Degree</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed8</attrlabl>
+        <attrdef>Highest level of education: Tertiary level - Masters Degree</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed9</attrlabl>
+        <attrdef>Highest level of education: Doctorate level programmes</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed10</attrlabl>
+        <attrdef>Highest level of education: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_none</attrlabl>
+        <attrdef>Highest level of education: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_ns</attrlabl>
+        <attrdef>Highest level of education: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_ed_tr</attrlabl>
+        <attrdef>Highest level of education: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex1</attrlabl>
+        <attrdef>Highest Education Examination: School leaving (Standard 6 or 7 School leaving exam)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex2</attrlabl>
+        <attrdef>Highest Education Examination: Cambridge School Certificate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex3</attrlabl>
+        <attrdef>Highest Education Examination: CXC Basic</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex4</attrlabl>
+        <attrdef>Highest Education Examination: GCE 'O' Levels or CXC General</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex5</attrlabl>
+        <attrdef>Highest Education Examination: High School Certificate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex6</attrlabl>
+        <attrdef>Highest Education Examination: GCE 'A' Levels, CAPE</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex7</attrlabl>
+        <attrdef>Highest Education Examination: Associate Degree</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex8</attrlabl>
+        <attrdef>Highest Education Examination: College Certificate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex9</attrlabl>
+        <attrdef>Highest Education Examination: College Diploma</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex10</attrlabl>
+        <attrdef>Highest Education Examination: Professional Certificate eg. RSA, City and Guilds, etc.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex11</attrlabl>
+        <attrdef>Highest Education Examination: Bachelor's Degree</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex12</attrlabl>
+        <attrdef>Highest Education Examination: Post Graduate Certificate</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex13</attrlabl>
+        <attrdef>Highest Education Examination: Post Grduate Diploma</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex14</attrlabl>
+        <attrdef>Highest Education Examination: Higher Degree (Master's)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex15</attrlabl>
+        <attrdef>Highest Education Examination: Higher Degree (Doctoral)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex16</attrlabl>
+        <attrdef>Highest Education Examination: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex_n</attrlabl>
+        <attrdef>Highest Education Examination: None</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex_ns</attrlabl>
+        <attrdef>Highest Education Examination: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_edex_tr</attrlabl>
+        <attrdef>Highest Education Examination: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_int_y</attrlabl>
+        <attrdef>Internet Access: People with internet access</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_int_n</attrlabl>
+        <attrdef>Internet Access: People with no internet access</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_int_ns</attrlabl>
+        <attrdef>Internet Access: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_int_tr</attrlabl>
+        <attrdef>Internet Access: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint1</attrlabl>
+        <attrdef>Places of Internet Access: Home</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint2</attrlabl>
+        <attrdef>Places of Internet Access: Work</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint3</attrlabl>
+        <attrdef>Places of Internet Access: School</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint4</attrlabl>
+        <attrdef>Places of Internet Access: Internet Café</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint5</attrlabl>
+        <attrdef>Places of Internet Access: Cellular phone/PDA</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint6</attrlabl>
+        <attrdef>Places of Internet Access: Family or Friend's house</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint7</attrlabl>
+        <attrdef>Places of Internet Access: Other</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint_n</attrlabl>
+        <attrdef>Places of Internet Access: Did not use</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint_ns</attrlabl>
+        <attrdef>Places of Internet Access: Not stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_pint_tr</attrlabl>
+        <attrdef>Places of Internet Access: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_wkf_u15</attrlabl>
+        <attrdef>Workforce: Interviewer checked if person was "Under 15"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_wkf_o15</attrlabl>
+        <attrdef>Workforce: Interviewer checked if person was "15 and over"</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_wkf_tr</attrlabl>
+        <attrdef>Workforce: Total responses</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu1</attrlabl>
+        <attrdef>Industry: Agriculture Hunting and Forestry</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu2</attrlabl>
+        <attrdef>Industry: Industry: Fishing</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu3</attrlabl>
+        <attrdef>Industry: Mining and Quarrying</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu4</attrlabl>
+        <attrdef>Industry: Manufacturing</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu5</attrlabl>
+        <attrdef>Industry: Electricity, Gas and Water</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu6</attrlabl>
+        <attrdef>Industry: Construction</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu7</attrlabl>
+        <attrdef>Industry: Wholesale and Retail Trade</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu8</attrlabl>
+        <attrdef>Industry: Hotels and Restaurants</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu9</attrlabl>
+        <attrdef>Industry: Transport, Storage and Communication</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu10</attrlabl>
+        <attrdef>Industry: Financial Intermediation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu11</attrlabl>
+        <attrdef>Industry: Real Estate, Rent and Business Activities</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu12</attrlabl>
+        <attrdef>Industry: Public Administration and Defense</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu13</attrlabl>
+        <attrdef>Industry: Education</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu14</attrlabl>
+        <attrdef>Industry: Health and Social Work</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu15</attrlabl>
+        <attrdef>Industry: Other Community, Social and Personal Service Activities</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu16</attrlabl>
+        <attrdef>Industry: Private Households with Employed Persons</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu17</attrlabl>
+        <attrdef>Industry: Extra- Territorial Organizations and Bodies</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu_ns</attrlabl>
+        <attrdef>Industry: Not Stated</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>c_indu_tr</attrlabl>
+        <attrdef>Industry: Total Responses</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20140603</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
