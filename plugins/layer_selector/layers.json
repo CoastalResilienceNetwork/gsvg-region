@@ -2,12 +2,12 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
-			"folderTitle": "",
+			"folderTitle": "Grenada",
             "folders": [
 				{
 					"name": "",
                     "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Grenada", "showLayers": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Inundation Scenarios", "showLayers": [
                                 {"id":1, "parentLayerId":-1 },
                                 {"id":2, "parentLayerId":1 },
                                 {"id":3, "parentLayerId":1 },
@@ -15,39 +15,53 @@
                                 {"id":5, "parentLayerId":1 },
                                 {"id":6, "parentLayerId":1 },
                                 {"id":7, "parentLayerId":1 },
-                                {"id":8, "parentLayerId":1 },
-                                {"id":9, "parentLayerId":-1 },
-                                {"id":10, "parentLayerId":9 },
-                                {"id":11, "parentLayerId":9 },
-                                {"id":12, "parentLayerId":9 },
-                                {"id":13, "parentLayerId":9 },
-                                {"id":14, "parentLayerId":9 },
-                                {"id":15, "parentLayerId":9 },
-                                {"id":16, "parentLayerId":9 },
+                                {"id":8, "parentLayerId":1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [				
+                                {"id":10, "parentLayerId":-1 },
+                                {"id":11, "parentLayerId":-1 },
+                                {"id":12, "parentLayerId":-1 },
+                                {"id":13, "parentLayerId":-1 },
+                                {"id":14, "parentLayerId":-1 },
+                                {"id":15, "parentLayerId":-1 },
+                                {"id":16, "parentLayerId":-1 },
                                 {"id":17, "parentLayerId":16 },
-                                {"id":18, "parentLayerId":16 },
-                                {"id":19, "parentLayerId":-1 },
-                                {"id":20, "parentLayerId":19 },
+                                {"id":18, "parentLayerId":16 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [												
+                                {"id":20, "parentLayerId":-1 },
                                 {"id":21, "parentLayerId":20 },
                                 {"id":22, "parentLayerId":20 },
-                                {"id":23, "parentLayerId":19 },
+                                {"id":23, "parentLayerId":-1 },
                                 {"id":24, "parentLayerId":23 },
                                 {"id":25, "parentLayerId":23 },
                                 {"id":26, "parentLayerId":23 },
                                 {"id":27, "parentLayerId":23 },
-                                {"id":28, "parentLayerId":19 },
+                                {"id":28, "parentLayerId":-1 },
                                 {"id":29, "parentLayerId":28 },
                                 {"id":30, "parentLayerId":28 },
                                 {"id":31, "parentLayerId":28 },
                                 {"id":32, "parentLayerId":28 },
-                                {"id":33, "parentLayerId":19 },
+                                {"id":33, "parentLayerId":-1 },
                                 {"id":34, "parentLayerId":33 },
                                 {"id":35, "parentLayerId":33 },
-                                {"id":36, "parentLayerId":19 },
+                                {"id":36, "parentLayerId":-1 },
                                 {"id":37, "parentLayerId":36 },
                                 {"id":38, "parentLayerId":36 },
                                 {"id":39, "parentLayerId":36 },
-                                {"id":40, "parentLayerId":19 },
+                                {"id":40, "parentLayerId":-1 },
                                 {"id":41, "parentLayerId":40 },
                                 {"id":42, "parentLayerId":40 },
                                 {"id":43, "parentLayerId":40 },
@@ -58,7 +72,7 @@
                                 {"id":48, "parentLayerId":40 },
                                 {"id":49, "parentLayerId":40 },
                                 {"id":50, "parentLayerId":40 },
-                                {"id":51, "parentLayerId":19 },
+                                {"id":51, "parentLayerId":-1 },
                                 {"id":52, "parentLayerId":51 },
                                 {"id":53, "parentLayerId":51 },
                                 {"id":54, "parentLayerId":51 },
@@ -68,7 +82,7 @@
                                 {"id":58, "parentLayerId":51 },
                                 {"id":59, "parentLayerId":51 },
                                 {"id":60, "parentLayerId":51 },
-                                {"id":61, "parentLayerId":19 },
+                                {"id":61, "parentLayerId":-1 },
                                 {"id":62, "parentLayerId":61 },
                                 {"id":63, "parentLayerId":61 },
                                 {"id":64, "parentLayerId":61 },
@@ -79,7 +93,7 @@
                                 {"id":69, "parentLayerId":61 },
                                 {"id":70, "parentLayerId":61 },
                                 {"id":71, "parentLayerId":61 },
-                                {"id":72, "parentLayerId":19 },
+                                {"id":72, "parentLayerId":-1 },
                                 {"id":73, "parentLayerId":72 },
                                 {"id":74, "parentLayerId":72 },
                                 {"id":75, "parentLayerId":72 },
@@ -90,7 +104,7 @@
                                 {"id":80, "parentLayerId":72 },
                                 {"id":81, "parentLayerId":72 },
                                 {"id":82, "parentLayerId":72 },
-                                {"id":83, "parentLayerId":19 },
+                                {"id":83, "parentLayerId":-1 },
                                 {"id":84, "parentLayerId":83 },
                                 {"id":85, "parentLayerId":83 },
                                 {"id":86, "parentLayerId":83 }							
@@ -104,50 +118,63 @@
 	{
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
-			"folderTitle": "",
+			"folderTitle": "St Vincent and the Grenadines",
             "folders": [
 				{
 					"name": "",
                     "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"St Vincent and the Grenadines", "showLayers": [
-                                {"id":88, "parentLayerId":-1 },
-                                {"id":89, "parentLayerId":88 },
-                                {"id":90, "parentLayerId":88 },
-                                {"id":91, "parentLayerId":88 },
-                                {"id":92, "parentLayerId":88 },
-                                {"id":93, "parentLayerId":88 },
-                                {"id":94, "parentLayerId":88 },
-                                {"id":95, "parentLayerId":88 },
-                                {"id":96, "parentLayerId":-1 },
-                                {"id":97, "parentLayerId":96 },
-                                {"id":98, "parentLayerId":96 },
-                                {"id":99, "parentLayerId":96 },
-                                {"id":100, "parentLayerId":96 },
-                                {"id":101, "parentLayerId":96 },
-                                {"id":102, "parentLayerId":96 },
-                                {"id":103, "parentLayerId":96 },
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Inundation Scenarios", "showLayers": [
+                                {"id":89, "parentLayerId":-1 },
+                                {"id":90, "parentLayerId":-1 },
+                                {"id":91, "parentLayerId":-1 },
+                                {"id":92, "parentLayerId":-1 },
+                                {"id":93, "parentLayerId":-1 },
+                                {"id":94, "parentLayerId":-1 },
+                                {"id":95, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},	
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [				
+                                {"id":97, "parentLayerId":-1 },
+                                {"id":98, "parentLayerId":-1 },
+                                {"id":99, "parentLayerId":-1 },
+                                {"id":100, "parentLayerId":-1 },
+                                {"id":101, "parentLayerId":-1 },
+                                {"id":102, "parentLayerId":-1 },
+                                {"id":103, "parentLayerId":-1 },
                                 {"id":104, "parentLayerId":103 },
-                                {"id":105, "parentLayerId":103 },
-                                {"id":106, "parentLayerId":-1 },
-                                {"id":107, "parentLayerId":106 },
+                                {"id":105, "parentLayerId":103 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
+								{"id":107, "parentLayerId":-1 },
                                 {"id":108, "parentLayerId":107 },
                                 {"id":109, "parentLayerId":107 },
-                                {"id":110, "parentLayerId":106 },
+                                {"id":110, "parentLayerId":-1 },
                                 {"id":111, "parentLayerId":110 },
                                 {"id":112, "parentLayerId":110 },
-                                {"id":113, "parentLayerId":106 },
+                                {"id":113, "parentLayerId":-1 },
                                 {"id":114, "parentLayerId":113 },
                                 {"id":115, "parentLayerId":113 },
                                 {"id":116, "parentLayerId":113 },
                                 {"id":117, "parentLayerId":113 },
-                                {"id":118, "parentLayerId":106 },
+                                {"id":118, "parentLayerId":-1 },
                                 {"id":119, "parentLayerId":118 },
                                 {"id":120, "parentLayerId":118 },
-                                {"id":121, "parentLayerId":106 },
+                                {"id":121, "parentLayerId":-1 },
                                 {"id":122, "parentLayerId":121 },
                                 {"id":123, "parentLayerId":121 },
                                 {"id":124, "parentLayerId":121 },
-                                {"id":125, "parentLayerId":106 },
+                                {"id":125, "parentLayerId":-1 },
                                 {"id":126, "parentLayerId":125 },
                                 {"id":127, "parentLayerId":125 },
                                 {"id":128, "parentLayerId":125 },
@@ -158,7 +185,7 @@
                                 {"id":133, "parentLayerId":125 },
                                 {"id":134, "parentLayerId":125 },
                                 {"id":135, "parentLayerId":125 },
-                                {"id":136, "parentLayerId":106 },
+                                {"id":136, "parentLayerId":-1 },
                                 {"id":137, "parentLayerId":136 },
                                 {"id":138, "parentLayerId":136 },
                                 {"id":139, "parentLayerId":136 },
@@ -166,7 +193,7 @@
                                 {"id":141, "parentLayerId":136 },
                                 {"id":142, "parentLayerId":136 },
                                 {"id":143, "parentLayerId":136 },
-                                {"id":144, "parentLayerId":106 },
+                                {"id":144, "parentLayerId":-1 },
                                 {"id":145, "parentLayerId":144 },
                                 {"id":146, "parentLayerId":144 },
                                 {"id":147, "parentLayerId":144 }								
