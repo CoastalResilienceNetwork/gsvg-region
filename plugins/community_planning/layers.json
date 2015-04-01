@@ -2,26 +2,46 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
-			"folderTitle": "",
+			"folderTitle": "Grenville",
             "folders": [
 				{
 					"name": "",
                     "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Grenville", "showLayers": [
-                                {"id":149, "parentLayerId":-1 },
-                                {"id":150, "parentLayerId":149 },
-                                {"id":151, "parentLayerId":149 },
-                                {"id":152, "parentLayerId":-1 },
-                                {"id":153, "parentLayerId":152 },
-                                {"id":154, "parentLayerId":152 },
-                                {"id":155, "parentLayerId":-1 },
-                                {"id":156, "parentLayerId":155 },
-                                {"id":157, "parentLayerId":155 },
-                                {"id":158, "parentLayerId":155 },
-                                {"id":159, "parentLayerId":155 },
-                                {"id":160, "parentLayerId":155 },
-                                {"id":161, "parentLayerId":-1 },
-                                {"id":162, "parentLayerId":161 }							
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Inundation Scenarios", "showLayers": [
+                                {"id":150, "parentLayerId":-1 },
+                                {"id":151, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
+                                {"id":153, "parentLayerId":-1 },
+                                {"id":154, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
+                                {"id":156, "parentLayerId":-1 },
+                                {"id":157, "parentLayerId":-1 },
+                                {"id":158, "parentLayerId":-1 },
+                                {"id":159, "parentLayerId":-1 },
+                                {"id":160, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
+                                {"id":162, "parentLayerId":-1 }							
 							]
 						}	
 					]
@@ -32,24 +52,37 @@
 	{
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
-			"folderTitle": "",
+			"folderTitle": "Union Island",
             "folders": [
 				{
 					"name": "",
                     "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Union Island", "showLayers": [
-                                {"id":164, "parentLayerId":-1 },
-                                {"id":165, "parentLayerId":164 },
-                                {"id":166, "parentLayerId":164 },
-                                {"id":167, "parentLayerId":-1 },
-                                {"id":168, "parentLayerId":167 },
-                                {"id":169, "parentLayerId":167 },
-                                {"id":170, "parentLayerId":167 },
-                                {"id":171, "parentLayerId":167 },
-                                {"id":172, "parentLayerId":167 },
-                                {"id":173, "parentLayerId":167 },
-                                {"id":174, "parentLayerId":-1 },
-                                {"id":175, "parentLayerId":174 }							
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
+                                {"id":165, "parentLayerId":-1 },
+                                {"id":166, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
+                                {"id":168, "parentLayerId":-1 },
+                                {"id":169, "parentLayerId":-1 },
+                                {"id":170, "parentLayerId":-1 },
+                                {"id":171, "parentLayerId":-1 },
+                                {"id":172, "parentLayerId":-1 },
+                                {"id":173, "parentLayerId":-1 }
+							]
+						}	
+					]
+				},
+				{
+					"name": "",
+                    "services": [
+						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
+                                {"id":175, "parentLayerId":-1 }							
 							]
 						}	
 					]
