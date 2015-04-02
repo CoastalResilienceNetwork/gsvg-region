@@ -1,5 +1,5 @@
 {
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/GSVG_Flood_and_SLR/GSVG_Flood_and_SLR_Data/MapServer",
+    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG/GSVG_Flood_and_SLR_Data/MapServer",
     "controls": [
         {
             "type": "header",
