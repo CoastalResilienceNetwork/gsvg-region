@@ -8,8 +8,8 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Inundation Scenarios", "showLayers": [
-                                {"id":150, "parentLayerId":-1 },
-                                {"id":151, "parentLayerId":-1 }
+                                {"id":161, "parentLayerId":-1 },
+                                {"id":162, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -18,8 +18,8 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
-                                {"id":153, "parentLayerId":-1 },
-                                {"id":154, "parentLayerId":-1 }
+                                {"id":164, "parentLayerId":-1 },
+                                {"id":165, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -28,11 +28,11 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":156, "parentLayerId":-1 },
-                                {"id":157, "parentLayerId":-1 },
-                                {"id":158, "parentLayerId":-1 },
-                                {"id":159, "parentLayerId":-1 },
-                                {"id":160, "parentLayerId":-1 }
+                                {"id":167, "parentLayerId":-1 },
+                                {"id":168, "parentLayerId":-1 },
+                                {"id":169, "parentLayerId":-1 },
+                                {"id":170, "parentLayerId":-1 },
+                                {"id":171, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -41,7 +41,7 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":162, "parentLayerId":-1 }							
+                                {"id":173, "parentLayerId":-1 }							
 							]
 						}	
 					]
@@ -58,8 +58,8 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
-                                {"id":165, "parentLayerId":-1 },
-                                {"id":166, "parentLayerId":-1 }
+                                {"id":176, "parentLayerId":-1 },
+                                {"id":177, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -68,12 +68,12 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":168, "parentLayerId":-1 },
-                                {"id":169, "parentLayerId":-1 },
-                                {"id":170, "parentLayerId":-1 },
-                                {"id":171, "parentLayerId":-1 },
-                                {"id":172, "parentLayerId":-1 },
-                                {"id":173, "parentLayerId":-1 }
+                                {"id":179, "parentLayerId":-1 },
+                                {"id":180, "parentLayerId":-1 },
+                                {"id":181, "parentLayerId":-1 },
+                                {"id":182, "parentLayerId":-1 },
+                                {"id":183, "parentLayerId":-1 },
+                                {"id":184, "parentLayerId":-1 }
 							]
 						}	
 					]
@@ -82,7 +82,7 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":175, "parentLayerId":-1 }							
+                                {"id":186, "parentLayerId":-1 }							
 							]
 						}	
 					]
