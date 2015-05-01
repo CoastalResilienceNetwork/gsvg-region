@@ -3,13 +3,13 @@
   <idinfo>
     <citation>
       <citeinfo>
-        <title>svg_soec_shipbuilding_2012</title>
+        <title>Ship Building</title>
         <geoform>vector digital data</geoform>
       </citeinfo>
     </citation>
     <descript>
       <abstract>Ship building sites throughout the state of St Vincent and The Grenadines. Sites include both traditional sloops and recent speedboat design. The attribute table is incomplete. "No Data" is represented as "-9999" in the attribute table.</abstract>
-      <purpose>Developed to locate and visualize ship building sites in St. Vincent and the Grenadines. This information will help inform the Nature Conservancy's AWE project about the impact of inundation to culturally and economically important areas like ship building sites. Scientists around the world agree that climate change is indisputable. Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come. Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
+      <purpose>Developed to locate and visualize ship building sites in St. Vincent and the Grenadines. This information will help inform the Nature Conservancy's AWE project about the impact of inundation to culturally and economically important areas like ship building sites.Scientists around the world agree that climate change is indisputable.  Impacts, including rising sea levels, increased storm intensity, warming temperatures and acidifying waters, dying coral reefs, shifting fish stocks, and incidence of flooding and drought, are already being felt, and are expected to continue and increase for decades to come.Nature holds some of the world’s best and most practical solutions to climate change, solutions that keep nature and people healthy, safe, and secure. The goal of At the Water’s Edge (AWE) is to demonstrate that governments and people in vulnerable coastal communities in Grenada and St. Vincent and the Grenadines (SVG) can enhance their resilience to climate change by protecting, restoring and effectively managing their marine and coastal ecosystems (also known as ecosystem-based adaptation or EBA) and strengthening local capacity for adaptation.</purpose>
     </descript>
     <spdom>
       <bounding>
@@ -26,7 +26,7 @@
       </theme>
     </keywords>
     <accconst>None</accconst>
-    <useconst>This work is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/) By using this information, you agree to these terms.</useconst>
+    <useconst>GIS Data User AgreementAny Geographic Information System (GIS) data or information received from The Nature Conservancy (TNC) or downloaded from a TNC site (collectively “GIS Data”) is licensed under a Creative Commons Attribution-Noncommercial-Share Alike 3.0 License (http://creativecommons.org/licenses/by-nc-sa/3.0/). More specific limitations of this data are stated below. By using this information, you acknowledge that you have read, understood, and accepted the terms and conditions stated in this GIS Data User Agreement. TNC reserves the right to change this Agreement at any time and without notice. Your use of this information shall constitute your agreement to be bound by this Agreement and any changes.The user hereby acknowledges that the GIS Data is subject to constant change and that its accuracy, including but not limited to, its accuracy as to labeling, dimensions, boundaries, placement or location of any map features therein, cannot be guaranteed. All GIS Data is provided as is, with potential faults, errors and without warranty of any kind, expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. Additionally, TNC does not warrant that the information contained in this GIS Data will meet the user's requirements or that the operation of the GIS Data will be uninterrupted or error free, or that data defects will be corrected. The entire risk as to the quality, performance and usefulness of the GIS Data rests with the user.The user, in using this GIS Data, hereby releases TNC, their agents, consultants, contractors or employees from any and all claims, actions, or causes of action for damages including, but not limited to, any costs of recovering, reprogramming or reproducing any programs or data stored in or used with the GIS Data, damage to property, damages for personal injury or for any lost profits, lost savings, or other special, incidental or consequential damages arising out of the use of or inability to use the GIS Data, even if such parties have been advised of the possibility of such damage. User agrees to indemnify and hold harmless TNC, their agents, consultants, contractors and employees from any and all liability claims or damages to any person or property arising from or connected with the use of the GIS Data.Further Data RestrictionsUse of the GIS Data is limited to academic or scientific purposes and may not be used for profitable purposes or by a for-profit corporation. The user hereby commits to acknowledge The Nature Conservancy as the data source and compiler when GIS Data received from TNC (through formal delivery or from a website) is used in the preparation of reports, papers, publications, maps and any other products. Any use, display or incorporation of GIS Data shall include the date on which such information was provided.The user also agrees to provide TNC, at no cost to TNC, a digital copy of any Geo-Spatial Data, tabular data, reports, imagery, drawing(s), plan(s), and any other form of result that were derived directly or indirectly from the use of these data provided by TNC along with its associated metadata.To ensure that appropriate documentation and data limitations are provided, downloaded data should not be redistributed to third-party users or uploaded to a central server unless written permission is granted by the TNC’s Caribbean Program GIS data manager (caribgis@tnc.org) and Caribbean Program Director (Luis Solorzano: luis.solorzano@TNC.ORG).When such GIS Data is used the following disclaimer and waiver of liability shall be included and displayed prominently so as to alert any person viewing or utilizing this information:NOTICE: It is understood that, while The Nature Conservancy and its partners of information have no indication or reason to believe that there are inaccuracies or defects in information incorporated in the base map, The Nature Conservancy and its data partners make NO REPRESENTATIONS OF ANY KIND, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE, NOR ARE ANY SUCH WARRANTIES TO BE IMPLIED, WITH RESPECT TO THE INFORMATION OR DATA, FURNISHED HEREIN.</useconst>
     <datacred>Edited and updated by Jerry J Mitchell for The Nature Conservancy (2012) caribgis@tnc.org</datacred>
     <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.3.3600</native>
   </idinfo>
@@ -43,7 +43,7 @@
     <horizsys>
       <planar>
         <mapproj>
-          <mapprojn>Transverse Mercator</mapprojn>
+          <mapprojn>WGS 1984 UTM Zone 20N</mapprojn>
           <transmer>
             <sfctrmer>0.9996</sfctrmer>
             <longcm>-63.0</longcm>
@@ -58,7 +58,7 @@
             <absres>0.000000002220024164500956</absres>
             <ordres>0.000000002220024164500956</ordres>
           </coordrep>
-          <plandu />
+          <plandu>meter</plandu>
         </planci>
       </planar>
       <geodetic>
@@ -72,7 +72,7 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>svg_soec_shipbuilding_2012</enttypl>
+        <enttypl>Ship Building</enttypl>
       </enttyp>
       <attr>
         <attrlabl>FID</attrlabl>
