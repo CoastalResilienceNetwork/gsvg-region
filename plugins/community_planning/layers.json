@@ -1,7 +1,7 @@
 [
     {
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
 			"folderTitle": "Grenville",
             "folders": [
 				{
@@ -51,7 +51,7 @@
 	},
 	{
         "agsSource": {
-            "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/GSVG",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
 			"folderTitle": "Union Island",
             "folders": [
 				{
