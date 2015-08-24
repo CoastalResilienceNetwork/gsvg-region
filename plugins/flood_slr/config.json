@@ -31,7 +31,7 @@
 						"1m|HL": [{"type":"dynamic","show":[12]}],
 						"2m|HL": [{"type":"dynamic","show":[13]}]
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/GSVG/GSVG_Flood_and_SLR_Data/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/GSVG/GSVG_Flood_and_SLR_Data/MapServer"
 				
 				}			
 			]
@@ -64,7 +64,7 @@
 						"1m|HL": [{"type":"dynamic","show":[5]}],
 						"2m|HL": [{"type":"dynamic","show":[6]}]
 					},
-					"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/GSVG/GSVG_Flood_and_SLR_Data/MapServer"
+					"mainURL": "http://services.coastalresilience.org/arcgis/rest/services/GSVG/GSVG_Flood_and_SLR_Data/MapServer"
 				
 				}			
 			]
