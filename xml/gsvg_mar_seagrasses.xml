@@ -8,7 +8,7 @@
       </citeinfo>
     </citation>
     <descript>
-      <abstract>The seagrass data was created for the AWE Project being run by the Nature Conservancy. The dataset is complilation of effort by different contributors and combines different datasets. The spatial information comes from six (6) different datasets. 1.) The Ph.D. work of Kim Baldwin at the University of the West Indies Cave Hill and the generation of the Marine Space-use Information System (MarSIS) resulted in a benthic habitat file which she created by heads up digitizing effort using 1 meter IKONOS imagery. About 60% of the features by number are from this effort. 2.) Contract work by Matthew Jones as part of The Nature Conservancy contract for Summer 2011 using LANDSAT 1999 images contrubited to about 10% of the features by number. 3.) A project dataset shared by the Planning Department of St. Vincent and the Grenadines which was developed for the SVG CRIS. Data was digitized from LANDSAT 1999 images by Alan Mills and others. About 8% of features by number are from this effort. 4). A contractor of the Nature Conservancy working from BYU digitized seagrass from 2007 aerial imagery for St. Vincent and the Grenadines. About 15% of the features by number are from this effort. 5.) Again, a contractor of the Nature Conservancy working from BYU digitized seagrass features from WorldView2 2010 orthophotos for Grenada. About 7% of the features by number are from this effort. 6.) A contractor of the Nature Conservancy, Jerry Mitchell, mapped seagrasses for the area surrounding Woburn Clarke's Court Bay, Grenada.</abstract>
+      <abstract>The seagrass data was created for the AWE Project being run by the Nature Conservancy. The dataset is complilation of effort by different contributors and combines different datasets. The spatial information comes from four (4) different datasets. 1.) The Ph.D. work of Kim Baldwin at the University of the West Indies Cave Hill and the generation of the Marine Space-use Information System (MarSIS) resulted in a benthic habitat file which she created by heads up digitizing effort using 1 meter IKONOS imagery. 2.) Contract work by Matthew Jones as part of The Nature Conservancy contract for Summer 2011 using LANDSAT 1999 images. 3.) The Grenville area of Grenada and Union Island of St. Vincent and the Grenadines was created through object-oriented mapping using Definiens eCognition software on 2010 WorldView2 imagery by NCRI. 4.) Southern Grenada and all of SVG except Union Island was created through object-oriented mapping on 2010 WorldView2 imagery through two separate contracts with Sam Purkins.</abstract>
       <purpose>These data were created under the direction of The Nature Conservancy for the Ecosystem Based Adaptation in the Grenadine Bank project (AWE). This project is built on the hypothesis that the neighboring and ecologically connected small island states in the Grenadine Bank can enhance the resilience of people and nature to climate change impacts by protecting, restoring and sustainably managing marine and coastal systems and strengthening community capacity for adaptation.</purpose>
     </descript>
     <spdom>
@@ -29,7 +29,7 @@
     <ptvctinf>
       <sdtsterm>
         <sdtstype>GT-polygon composed of chains</sdtstype>
-        <ptvctcnt>1614</ptvctcnt>
+        <ptvctcnt>1572</ptvctcnt>
       </sdtsterm>
     </ptvctinf>
   </spdoinfo>
@@ -37,20 +37,16 @@
     <horizsys>
       <planar>
         <mapproj>
-          <mapprojn>WGS 1984 UTM Zone 20N</mapprojn>
-          <transmer>
-            <sfctrmer>0.9996</sfctrmer>
-            <longcm>-63.0</longcm>
-            <latprjo>0.0</latprjo>
-            <feast>500000.0</feast>
-            <fnorth>0.0</fnorth>
-          </transmer>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+          </mapprojp>
         </mapproj>
         <planci>
           <plance>coordinate pair</plance>
           <coordrep>
-            <absres>0.000000002220024164500956</absres>
-            <ordres>0.000000002220024164500956</ordres>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
           </coordrep>
           <plandu>meter</plandu>
         </planci>
@@ -66,8 +62,16 @@
   <eainfo>
     <detailed>
       <enttyp>
-        <enttypl>Seagrasses</enttypl>
+        <enttypl>mar_seagrasses_Erase</enttypl>
       </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
       <attr>
         <attrlabl>SHAPE</attrlabl>
         <attrdef>Classes of seagrass habitat such as sparse, dense or simply seagrass.</attrdef>
@@ -117,14 +121,6 @@
         <attrdefs>ESRI</attrdefs>
         <attrdomv>
           <udom>Sequential unique whole numbers that are automatically generated.</udom>
-        </attrdomv>
-      </attr>
-      <attr>
-        <attrlabl>Shape</attrlabl>
-        <attrdef>Feature geometry.</attrdef>
-        <attrdefs>ESRI</attrdefs>
-        <attrdomv>
-          <udom>Coordinates defining the features.</udom>
         </attrdomv>
       </attr>
     </detailed>
