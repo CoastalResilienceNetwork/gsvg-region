@@ -59,8 +59,8 @@
 					"name": "",
                     "services": [
 						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
-                                {"id":192, "parentLayerId":-1 },
-                                {"id":193, "parentLayerId":-1 }
+                                {"id":193, "parentLayerId":-1 },
+                                {"id":194, "parentLayerId":-1 }
 							]
 						}	
 					]
