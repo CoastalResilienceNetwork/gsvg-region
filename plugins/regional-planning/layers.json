@@ -1,0 +1,216 @@
+[
+    {
+		"name" : "Grenada",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
+            "name": "GSVG"
+        },
+        "includeLayers" : [
+            {
+				"name" : "Inundation Scenarios",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Ecological",
+				"includeLayers" : [
+					{
+						"name" : "Dominant Mangrove Vegetation"
+					},
+					{
+						"name" : "Mangrove Migration Area"
+					},
+					{
+						"name" : "Coral Reef"
+					},
+					{
+						"name" : "Rocky Shore"
+					},
+					{
+						"name" : "Beach"
+					},
+					{
+						"name" : "Seagrass"
+					},
+					{
+						"name" : "Vulnerability",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Social and Economic",
+				"includeLayers" : [
+					{
+						"name" : "Critical Infrastructure",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Critical Facilities",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Emergency Response",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Community Facilities",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Transportation Terminals",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Census Information",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Sensitivity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Adaptive Capacity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Vulnerability",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Census Information",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Sensitivity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Adaptive Capacity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Vulnerability",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Livelihoods",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Other Socioeconomic Layers",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	},
+	{		
+		"name" : "St Vincent and the Grenadines",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
+            "name": "GSVG"
+        },
+		"includeLayers": [
+			{
+				"name" : "Inundation Scenarios",
+				"includeAllLayers" : true
+			},
+			{
+				"name" : "Ecological",
+				"includeLayers" : [
+					{
+						"name" : "Dominant Mangrove Vegetation"
+					},
+					{
+						"name" : "Mangrove Migration Area"
+					},
+					{
+						"name" : "Coral Reef"
+					},
+					{
+						"name" : "Rocky Shore"
+					},
+					{
+						"name" : "Beach"
+					},
+					{
+						"name" : "Seagrass"
+					},
+					{
+						"name" : "Vulnerability",
+						"includeAllLayers" : true
+					}
+				]
+			},
+			{
+				"name" : "Social and Economic",
+				"includeLayers" : [
+					{
+						"name" : "Critical Infrastructure",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Critical Facilities",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Emergency Response",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Community Facilities",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Transportation Terminals",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Census Information",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Sensitivity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Adaptive Capacity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2001 Vulnerability",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Census Information",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Sensitivity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Adaptive Capacity Indicators",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "2011 Vulnerability",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Livelihoods",
+						"includeAllLayers" : true
+					},
+					{
+						"name" : "Other Socioeconomic Layers",
+						"includeAllLayers" : true
+					}
+				]
+			}
+		]
+	}
+]
