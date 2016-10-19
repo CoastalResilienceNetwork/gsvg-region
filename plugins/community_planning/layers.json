@@ -8,19 +8,23 @@
             "name": "GSVG"
         },
         "includeLayers": [
-			{
+			{	
+				"name" : "Inundation Scenarios",
 				"id" : 176,
 				"includeAllLayers" : true
 			},
-			{
+			{	
+				"name" : "Ecological",
 				"id" : 179,
 				"includeAllLayers" : true
 			},
-			{
+			{	
+				"name" : "Social and Economic",
 				"id" : 183,
 				"includeAllLayers" : true
 			},
-			{
+			{	
+				"name" : "Bathymetric Data",
 				"id" : 189,
 				"includeAllLayers" : true
 			}
@@ -35,15 +39,18 @@
             "name": "GSVG"
         },
         "includeLayers": [
-			{
+			{	
+				"name" : "Ecological",
 				"id" : 192,
 				"includeAllLayers" : true
 			},
-			{
+			{	
+				"name" : "Social and Economic",
 				"id" : 195,
 				"includeAllLayers" : true
 			},
-			{
+			{	
+				"name" : "Bathymetric Data",
 				"id" : 202,
 				"includeAllLayers" : true
 			}
