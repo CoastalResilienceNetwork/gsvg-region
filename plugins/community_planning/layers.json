@@ -1,94 +1,52 @@
 [
     {
-        "agsSource": {
+        "displayName": "Grenville",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
-			"folderTitle": "Grenville",
-            "folders": [
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Inundation Scenarios", "showLayers": [
-                                {"id":177, "parentLayerId":-1 },
-                                {"id":178, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
-                                {"id":180, "parentLayerId":-1 },
-                                {"id":181, "parentLayerId":-1 },
-                                {"id":182, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":184, "parentLayerId":-1 },
-                                {"id":185, "parentLayerId":-1 },
-                                {"id":186, "parentLayerId":-1 },
-                                {"id":187, "parentLayerId":-1 },
-                                {"id":188, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":190, "parentLayerId":-1 }							
-							]
-						}	
-					]
-				}
-			]
-        }
+            "name": "GSVG"
+        },
+        "includeLayers": [
+			{
+				"id" : 176,
+				"includeAllLayers" : true
+			},
+			{
+				"id" : 179,
+				"includeAllLayers" : true
+			},
+			{
+				"id" : 183,
+				"includeAllLayers" : true
+			},
+			{
+				"id" : 189,
+				"includeAllLayers" : true
+			}
+		]
 	},
 	{
-        "agsSource": {
+        "displayName": "Union Island",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/GSVG",
-			"folderTitle": "Union Island",
-            "folders": [
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Ecological", "showLayers": [
-                                {"id":193, "parentLayerId":-1 },
-                                {"id":194, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Social and Economic", "showLayers": [
-                                {"id":196, "parentLayerId":-1 },
-                                {"id":197, "parentLayerId":-1 },
-                                {"id":198, "parentLayerId":-1 },
-                                {"id":199, "parentLayerId":-1 },
-                                {"id":200, "parentLayerId":-1 },
-                                {"id":201, "parentLayerId":-1 }
-							]
-						}	
-					]
-				},
-				{
-					"name": "",
-                    "services": [
-						{ "name": "GSVG", "type":"dynamic", "displayName":"Bathymetry", "showLayers": [
-                                {"id":203, "parentLayerId":-1 }							
-							]
-						}	
-					]
-				}
-			]
-        }
+            "name": "GSVG"
+        },
+        "includeLayers": [
+			{
+				"id" : 192,
+				"includeAllLayers" : true
+			},
+			{
+				"id" : 195,
+				"includeAllLayers" : true
+			},
+			{
+				"id" : 202,
+				"includeAllLayers" : true
+			}
+		]
 	}
 ]
