@@ -35,7 +35,7 @@
     "pluginOrder": [
         "regional-planning",
 		"community_planning",
-		"flood_slr",
+		"flood-slr",
         "zoom_to",
         "measure",
         "legend_display",

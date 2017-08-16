@@ -1,0 +1,22 @@
+{
+	"region": {
+		"Grenada": {
+			"sea_level_rise|none|100yr": [2],
+			"sea_level_rise|none|ivan": [3],
+			"sea_level_rise|none|lenny": [4],
+			"sea_level_rise|1m|none": [0],
+			"sea_level_rise|1m|lenny": [5],
+			"sea_level_rise|2m|none": [1],
+			"sea_level_rise|2m|lenny": [6]
+		},
+		"St Vincent and the Grenadines": {
+			"sea_level_rise|none|100yr": [9],
+			"sea_level_rise|none|ivan": [10],
+			"sea_level_rise|none|lenny": [11],
+			"sea_level_rise|1m|none": [7],
+			"sea_level_rise|1m|lenny": [12],
+			"sea_level_rise|2m|none": [8],
+			"sea_level_rise|2m|lenny": [13]
+		}
+	}
+}
