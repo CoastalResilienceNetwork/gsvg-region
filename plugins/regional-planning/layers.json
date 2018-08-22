@@ -34,14 +34,17 @@
 		"includeLayers": [
 			{
 				"name" : "Inundation Scenarios",
+				"id" : 85,
 				"includeAllLayers" : true
 			},
 			{
 				"name" : "Ecological",
+				"id" : 93,
 				"includeAllLayers" : true	
 			},
 			{
 				"name" : "Social and Economic",
+				"id" : 103,
 				"includeAllLayers" : true
 			}
 		]
