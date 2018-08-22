@@ -72,26 +72,6 @@
 						"includeAllLayers" : true
 					},
 					{
-						"name" : "2001 Census Information",
-						"id" : 40,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Sensitivity Indicators",
-						"id" : 51,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Adaptive Capacity Indicators",
-						"id" : 55,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Vulnerability",
-						"id" : 59,
-						"includeAllLayers" : true
-					},
-					{
 						"name" : "2011 Census Information",
 						"id" : 70,
 						"includeAllLayers" : true
