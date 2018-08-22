@@ -15,113 +15,11 @@
 			},
 			{
 				"name" : "Ecological",
-				"id" : 9,
-				"includeLayers" : [
-					{
-						"name" : "Dominant Mangrove Vegetation"
-					},
-					{
-						"name" : "Mangrove Migration Area"
-					},
-					{
-						"name" : "Coral Reef"
-					},
-					{
-						"name" : "Rocky Shore"
-					},
-					{
-						"name" : "Beach"
-					},
-					{
-						"name" : "Seagrass"
-					},
-					{
-						"name" : "Vulnerability",
-						"id" : 16,
-						"includeAllLayers" : true
-					}
-				]
+				"includeAllLayers" : true
 			},
 			{
 				"name" : "Social and Economic",
-						"id" : 19,
-				"includeLayers" : [
-					{
-						"name" : "Critical Infrastructure",
-						"id" : 20,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Critical Facilities",
-						"id" : 23,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Emergency Response",
-						"id" : 28,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Community Facilities",
-						"id" : 33,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Transportation Terminals",
-						"id" : 36,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Census Information",
-						"id" : 40,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Sensitivity Indicators",
-						"id" : 51,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Adaptive Capacity Indicators",
-						"id" : 55,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Vulnerability",
-						"id" : 59,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2011 Census Information",
-						"id" : 70,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2011 Sensitivity Indicators",
-						"id" : 80,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2011 Adaptive Capacity Indicators",
-						"id" : 84,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2011 Vulnerability",
-						"id" : 88,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Livelihoods",
-						"id" : 99,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Other Socioeconomic Layers",
-						"id" : 110,
-						"includeAllLayers" : true
-					}
-				]
+				"includeAllLayers" : true
 			}
 		]
 	},
@@ -136,83 +34,18 @@
 		"includeLayers": [
 			{
 				"name" : "Inundation Scenarios",
-				"id" : 115,
+				"id" : 85,
 				"includeAllLayers" : true
 			},
 			{
 				"name" : "Ecological",
-				"id" : 123,
-				"includeLayers" : [
-					{
-						"name" : "Dominant Mangrove Vegetation"
-					},
-					{
-						"name" : "Mangrove Migration Area"
-					},
-					{
-						"name" : "Coral Reef"
-					},
-					{
-						"name" : "Rocky Shore"
-					},
-					{
-						"name" : "Beach"
-					},
-					{
-						"name" : "Seagrass"
-					},
-					{
-						"name" : "Vulnerability",
-						"id" : 130,
-						"includeAllLayers" : true
-					}
-				]
+				"id" : 93,
+				"includeAllLayers" : true	
 			},
 			{
 				"name" : "Social and Economic",
-				"id" : 133,
-				"includeLayers" : [
-					{
-						"name" : "Critical Infrastructure",
-						"id" : 134,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Critical Facilities",
-						"id" : 137,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Emergency Response",
-						"id" : 140,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Community Facilities",
-						"id" : 145,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Transportation Terminals",
-						"id" : 148,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "2001 Census Information",
-						"id" : 152,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Livelihoods",
-						"id" : 163,
-						"includeAllLayers" : true
-					},
-					{
-						"name" : "Other Socioeconomic Layers",
-						"id" : 171,
-						"includeAllLayers" : true
-					}
-				]
+				"id" : 103,
+				"includeAllLayers" : true
 			}
 		]
 	}
