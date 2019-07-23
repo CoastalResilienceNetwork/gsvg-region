@@ -306,6 +306,8 @@
       "Landfill": 176
     }
   },
+  "mangroveLayer": 35,
+  "coralLayer": 37,
   "adminFields": [
       "ADMIN_NAME", 
       "COUNTRY", 
