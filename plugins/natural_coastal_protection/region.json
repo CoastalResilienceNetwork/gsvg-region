@@ -163,9 +163,9 @@
       "Airport": 22,
       "Road": 23,
       "Building Footprint": 24,
-      "Electrict Plant": 25,
+      "Electric Plant": 25,
       "Cell Tower": 26,
-      "Pumping Sation": 27,
+      "Pumping Station": 27,
       "Water Treatment Plant": 28,
       "Medical Facility": 29,
       "Emergency Shelter": 30,
@@ -179,8 +179,8 @@
       "Rocky Shore": 38,
       "Beach": 39,
       "Seagrass": 40,
-      "Mangrove Vulerability Index (1m SLR)": 42,
-      "Mangrove Vulerability Index (2m SLR)": 43
+      "Mangrove Vulnerability Index (1m SLR)": 42,
+      "Mangrove Vulnerability Index (2m SLR)": 43
     },
     "Socioeconomic Layers": {
       "Financial Institution": 46,
