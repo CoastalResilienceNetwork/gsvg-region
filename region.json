@@ -66,6 +66,11 @@
                     "logoPath": "img/TNCLogoPrimary_RGB.png",
                     "link": "http://nature.org",
                     "title": "The Nature Conservancy"
+            },
+            {
+                    "logoPath": "img/RC.png",
+                    "link": "https://www.ifrc.org/en/what-we-do/where-we-work/americas/grenada-red-cross-society/",
+                    "title": "Grenada Red Cross"
             }
         ]
     }
