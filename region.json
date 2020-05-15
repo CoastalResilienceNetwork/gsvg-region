@@ -43,7 +43,7 @@
     "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Grenada",
-            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.<br><div style="list-style-type: none;text-align:center;"><a class="button button-primary" href="https://media.coastalresilience.org/Resilient_Islands/Grenada_SnapShot.pdf" target="_blank">Download Country Snapshot</a></div>",
+            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards.<br><div style='list-style-type: none;text-align:center;'><a class='button button-primary' href='https://media.coastalresilience.org/Resilient_Islands/Grenada_SnapShot.pdf' target='_blank'>Download Country Snapshot</a></div>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
